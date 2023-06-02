@@ -1,0 +1,42 @@
+.chico{
+    background-color: aqua;
+    display: block;
+    border: solid gray 5px;
+    height: 100px;
+    width: 700px;
+}
+.grande{
+    background-color: aqua;
+    position: static;
+    border: solid gray 5px;
+    height: 150px;
+    width: 700px;
+    }
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 150px;
+    border: solid gray 5px;
+    background-color: aqua;
+}
+.mediano{
+    position: absolute;
+    display: flex;
+    width: 350px;
+    height: 150px;
+    border: solid gray 5px;
+    background-color: aqua;
+    right: 630px;
+    top: 278px;
+}
+.margin-derecho{
+    width: 350px;
+    height: 150px;
+    background-color:aqua;
+    border: solid gray 5px;
+    position: absolute;
+    display: block;
+    right: 630px;
+    top: 598px;
+}
